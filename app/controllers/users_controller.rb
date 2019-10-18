@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-
+# don't touch this file
 class UsersController < ProtectedController
   skip_before_action :authenticate, only: %i[signup signin]
 
