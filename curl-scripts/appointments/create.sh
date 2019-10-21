@@ -9,8 +9,7 @@ curl "http://localhost:4741/appointments" \
       "location": "'"${LOCATION}"'",
       "gym": "'"${GYM}"'",
       "trainer": "'"${TRAINER}"'",
-      "starts_on": "'"${DATE}"'",
-
+      "starts_on": "'"${DATE}"'"
     }
   }'
 
